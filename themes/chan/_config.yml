@@ -33,7 +33,6 @@ nav:
       name: Github
       url: https://github.com/tduong10101
   -
-    - categories # display a collapsible category list
     - tags       # display a collapsible tag list
     - archives   # display a collapsible archive list
     -
