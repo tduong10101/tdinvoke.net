@@ -79,3 +79,6 @@ theme: chan
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+comments: true
+disqus_shortname: tdinvoke
