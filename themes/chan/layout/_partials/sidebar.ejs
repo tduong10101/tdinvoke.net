@@ -1,15 +1,20 @@
 <div class="sidebar">
   <div class="header">
     <h1 class="title"><a href="<%- url_for('/') %>"><%= config.title %></a></h1>
-    <% if (config.description) { %>
-      <div class="description"><%= config.description %></div>
-    <% } %>
     <% if (config.subtitle) { %>
       <p class="subtitle">
         <%= config.subtitle %>
       </p>
     <% } %>
-    <div class="info">      
+    <div class="info">
+      <div class="content">
+        <% if (config.description) { %>
+          <div class="description"><%= config.description %></div>
+        <% } %>
+        <% if (config.author) { %>
+          <div class="author"><%= config.author %></div>
+        <% } %>
+      </div>
       <% if (theme.avatar) { %>
         <div class="avatar">
           <% if (theme.avatarLink) { %>
