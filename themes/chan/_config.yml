@@ -2,7 +2,7 @@
 
 # site setting
 rss: /atom.xml
-favicon: images/favicon.png
+favicon: http://blog.tdinvoke.net/images/favicon.png
 
 # style setting
 monochrome: false

@@ -1,7 +1,10 @@
 ---
 title: Serverless Blog
 date: 2019-08-16 23:12:16
-tags: aws, hexo, serverless
+tags:
+    - aws
+    - hexo
+    - serverless
 ---
 
 {% asset_img hexo-logo.png %}
