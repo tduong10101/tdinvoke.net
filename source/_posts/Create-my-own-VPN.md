@@ -19,7 +19,7 @@ Just created my personal VPN by using the OpenVPN AMI from AWS Marketplace so I 
 
 {% asset_img "netflix-us.JPG" "netflix us - marvel search" %}
 
-I was closed but no cigar. Got the below when I tried to watch Infinity War.
+I was closed but no cigar. Got the below when I tried to watch Infinity War. Damn Netflix! :(
 [netflix.com/proxy](https://help.netflix.com/en/node/277)
 
 {% asset_img "netflix-error.JPG" %}
