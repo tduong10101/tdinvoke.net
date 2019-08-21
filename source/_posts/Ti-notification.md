@@ -52,7 +52,7 @@ for j in json_data:
 #print(*filtered_json_data, sep="\n")
 
 for f in filtered_json_data:
-    if f['radiant_win'] == 'True':
+    if f['radiant_win']:
         winner = f['radiant_name']
         winner_score = f['radiant_score']
         loser = f['dire_name']
