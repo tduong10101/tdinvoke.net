@@ -2,6 +2,10 @@
 title: 'TI9 - Follow my fav team with opendota api, lambda and sns'
 date: 2019-08-21 22:39:41
 tags:
+    - aws
+    - severless
+    - dota2
+    - open_dota_api
 ---
 
 {% asset_img ti9.jpg %}
