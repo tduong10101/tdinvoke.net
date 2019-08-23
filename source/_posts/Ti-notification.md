@@ -36,6 +36,8 @@ league_name = os.environ['LEAGUE_NAME']
 
 filtered_json_data = list()
 for j in json_data:
+    if j['radiant_name'] == None or j['dire_name'] == None:
+            continue
     check_rad_name = team_name in j['radiant_name']
     check_dire_name = team_name in j['dire_name']
     check_tour = league_name in j['league_name']
