@@ -1,0 +1,7 @@
+robotstxt:
+  useragent: "*"
+  disallow:
+    - https://7v6sxhxunb.execute-api.us-east-1.amazonaws.com/ProdStage
+  allow:
+    
+  sitemap: /sitemap.xml
