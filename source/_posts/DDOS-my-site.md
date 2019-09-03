@@ -57,7 +57,7 @@ and got the 403 error as expected.
 
 - Setting up the bot wasn't easy as I expected, but I learnt a lot about scrapy.
 
-- I accidentally/unknowingly deleted the badbot ip list from the badbot rule. Then I had to gone through the whole process (api gateway -> lambda -> waf ip list -> waf rule) to troubleshoot the issue.
+- I accidentally/unknowingly deleted the badbot ip list from the badbot rule. Only found out about the silly mistake by going through the whole pipeline (api gateway -> lambda -> waf ip list -> waf rule) to troubleshoot the issue.
 
 - PyFlooder is not compatible with windows os. Had to spin up a ubuntu vm to run it.
 
