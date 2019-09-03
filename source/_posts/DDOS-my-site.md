@@ -20,7 +20,7 @@ My weapon of choice is [PyFlooder](https://github.com/D4Vinci/PyFlooder).
 
 {% asset_img "hold-your-tears-1.JPG" %}
 
-After about 12000 requests, the lambda function started to kick in and blocked my access to the side. I can also see my ip has been blocked on WAF http flood rule.
+After about 5000 requests, the lambda function started to kick in and blocked my access to the side. I can also see my ip has been blocked on WAF http flood rule.
 
 {% asset_img "403.JPG" %} {% asset_img "waf-flood.JPG" %}
 
