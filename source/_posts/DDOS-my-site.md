@@ -10,7 +10,7 @@ tags:
 ---
 {% asset_img "ddos_teaser.png" %}
 
-A friend of mine suggested that I should write something about [AWS WAF security automations](https://aws.amazon.com/solutions/aws-waf-security-automations/). This is mentioned in the [Use AWS WAF to Mitigate OWASP’s Top 10 Web Application Vulnerabilities](https://d0.awsstatic.com/whitepapers/Security/aws-waf-owasp.pdf) whitepaper and there are plenty of materials about this solution ([link](https://www.nclouds.com/blog/security-apps-aws-web-application-firewall/)). So I thought, instead of writing about what it is / how to set it up, let have some funs ddos my own site and actually see how it works.
+A friend of mine suggested that I should write something about [AWS WAF security automations](https://aws.amazon.com/solutions/aws-waf-security-automations/). This is mentioned in the [Use AWS WAF to Mitigate OWASP’s Top 10 Web Application Vulnerabilities](https://d0.awsstatic.com/whitepapers/Security/aws-waf-owasp.pdf) whitepaper and there are plenty of materials about this solution on the net. So I thought, instead of writing about what it is / how to set it up, let have some funs ddos my own site and actually see how it works.
 
 I'm going to try to break my site with 3 different methods.
 
