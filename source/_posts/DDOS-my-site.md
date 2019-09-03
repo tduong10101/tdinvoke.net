@@ -61,6 +61,6 @@ and got the 403 error as expected.
 
 - PyFlooder is not compatible with windows os. Had to spin up a ubuntu vm to run it.
 
-- Learnt how to add file to source for Hexo. Not complicate at all, just chuck the file into /source folder. ***Do not*** use the [hexo-generator-robotstxt](https://www.npmjs.com/package/hexo-generator-robotstxt) plugin, I almost broken my site because of it.
+- Learnt how to add file to source for Hexo. Not complicated at all, just chuck the file into /source folder. ***Do not*** use the [hexo-generator-robotstxt](https://www.npmjs.com/package/hexo-generator-robotstxt) plugin, I almost broken my site because of it.
 
 - Overall this was an interesting exercise - breaking is always more fun than building!
