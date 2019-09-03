@@ -53,7 +53,7 @@ Release the spider!!!!
 and got the 403 error as expected.
 {% asset_img "403-spider.JPG" %}
 
-### Issue encountered/thoughts:
+### Issues encountered/thoughts:
 
 - Setting up the bot wasn't easy as I expected, but I learnt a lot about scrapy.
 
