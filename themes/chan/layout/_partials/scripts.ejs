@@ -1,8 +1,5 @@
 <%- js('\/\/apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js') %>
-<% var title = page.title; %>
-<% if (title === 'Random Podcast' || config.title === 'Random Podcast') { %>
 <%- js('/podcast/podcast.js') %>
-<% } %>
 <%- partial('photoswipe', {}, {cache: true}) %>
 <%- js('/perfect-scrollbar/js/min/perfect-scrollbar.min.js') %>
 <%- js('/scripts/main') %>
