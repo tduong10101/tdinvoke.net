@@ -26,12 +26,6 @@ To see the app in action, please visit [here](https://blog.tdinvoke.net/random-p
 Issues encountered/thoughts:
 
 - Learnt how to add js scripts to Hexo. There arn't much information on how to... I had to hack around for awhile. Basically, I need to create a new script folder at thems/'my-theme'/source/'td-podcast'. Chuck all my js scripts in there, then modify '_partials/scripts.ejs' to reference the source folder. Learnt a bit of ejs as well.
-```javascript
-<% var title = page.title; %>
-<% if (title === 'Random Podcast' || config.title === 'Random Podcast') { %>
-<%- js('/podcast/podcast.js') %>
-<% } %>
-```
 - Chalice is a pain with Dynamodb, gave up half way and gone back to create the lambda functions manually.
 - Need to do CI/CD on this. (Maybe for next post)
 - Split crawler into separate lambda functions. At the moment, this app only crawl playerfm stations.
