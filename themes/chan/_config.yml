@@ -32,13 +32,15 @@ nav:
     -
       name: Github
       url: https://github.com/tduong10101
+    -
+      name: Random Podcast
+      url: '/random-podcast'
   -
     - tags       # display a collapsible tag list
     - archives   # display a collapsible archive list
     -
       name: By Year
       url: /archives
-
 # duoshuo shortname
 # refer to http://duoshuo.com
 # If you use disqus then you should set disqus_shortname in your site config and disable duoshuo here.
