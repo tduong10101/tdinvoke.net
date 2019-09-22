@@ -8,7 +8,7 @@ $(document).ready(function() {
                     success: function(response) {
                         // $("#title").append(response.title)
                         // $("#station").append(response.station)
-                        var intro = "Welcome to my random podcast page, each time an episode is finished, another random episode will be replaced (after refresh) by my td-podcast serverless app. For more information about the app please see this post. <br><br>Current episode is <strong>"+(response.title)+"</strong> from <strong>"+(response.station)+"</strong>.<br><br>"
+                        var intro = "Welcome to my random podcast page, each time an episode is finished, another random episode will be replaced (after refresh) by my td-podcast serverless app. For more information about the app please see <a href='https://blog.tdinvoke.net/2019/09/22/my-random-podcast/'>this post</a>. <br><br>Current episode is <strong>"+(response.title)+"</strong> from <strong>"+(response.station)+"</strong>.<br><br>"
                         $("#current-podcast").prepend(intro)
                         $("#current-podcast").append("<br><p><strong>Description:</strong> "+response.description+"</p>")
                         $("#audio-source").attr('src',response.episode_url);
