@@ -9,7 +9,7 @@ tags:
     - aws
 ---
 {% asset_img A-0901-Podcast-BBVA-1024x416.jpg %}
-I've been trying to catch up with a few podcasts and was while can't decide  what to listen to first. So I thought, let create an app that could pick out a random episode for me. Less thinking about picking and more time listening!
+I've been trying to catch up with a few podcasts and can't decide  what to listen to first. So I thought, let create an app that could pick out a random episode for me. Less thinking about picking and more time listening!
 
 So here is what I came up with.
 
