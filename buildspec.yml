@@ -4,6 +4,7 @@ phases:
   install:
     commands:
       - npm install -g hexo-cli
+      - npm install -g hexo-generator-sitemap
       - npm install
       - apt-get update
       - apt-get install -y awscli
