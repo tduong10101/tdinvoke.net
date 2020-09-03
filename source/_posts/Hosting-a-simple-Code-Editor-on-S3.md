@@ -2,6 +2,11 @@
 title: Hosting a simple Code Editor on S3
 date: 2020-09-03 23:39:38
 tags:
+    - aws
+    - serverless
+    - s3
+    - cloudfront
+    - route53
 ---
 {% asset_img "SampleSite.JPG" %}
 
