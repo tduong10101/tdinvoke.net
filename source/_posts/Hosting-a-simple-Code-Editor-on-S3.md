@@ -26,4 +26,5 @@ Also it's a good pratice to brush up my knowledge on some of the AWS services (S
 4. Create new A record in Route 53 and point it to the new CloudFront Distributions
 
 Aaand here is the site: https://codeplayer.tdinvoke.net/
-Next I need to write up readme.md for the repo.
+
+Next I need to go back to the repo and write up a readme.md for it.
