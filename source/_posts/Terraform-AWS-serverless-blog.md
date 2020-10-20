@@ -75,6 +75,9 @@ Remove the blog:
 
 13. If you don't like the new blog and want to clean up aws/git resources. Run the below command:
 
-```terraform destroy -var-file variable.tfvars```
-14. Once terraform finish cleaning up the resources. You can remove all the folders from your local computer.
+```
+terraform destroy -var-file variable.tfvars
+```
+
+14. Once terraform finish cleaning up the resources. The rest of the folders can be removed from local computer.
 
