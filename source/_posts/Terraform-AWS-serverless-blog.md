@@ -62,9 +62,10 @@ git remote add origin "<your-git-url-from-step-5>"
 git push -u origin master
 ```
 
-11. Log on to your AWS console and wait for codebuild to complete.
+11. Wait for codebuild to complete update S3 bucket. Logon to AWS console to confirm.
 
 {% asset_img codeBuild.jpg %}
+
 12. Open the website_endpoint url on step 5 and enjoy your serverless blog.
 
 Visit [Hexo](https://hexo.io/docs/writing) for instructions on how to create posts, change theme, add plugins etc
