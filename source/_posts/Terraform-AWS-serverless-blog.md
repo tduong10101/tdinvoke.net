@@ -26,7 +26,7 @@ Once all the prerequisites are setup, follow the steps below.
 ```
 git clone https://github.com/tduong10101/serverless-blog-terra.git
 ```
-2. Update serverless-blog-terra/variable.tfvars with your yesgithub token and site name that you would like set up
+2. Update serverless-blog-terra/variable.tfvars with your github token and site name that you would like set up
 3. Run the following commands
 
 ```
