@@ -9,9 +9,7 @@ tags:
 ---
 {% asset_img HighlevelDesign.jpg %}
 
-I'm learning Terraform at the moment and thought this could be a good hand-on side project for me. The provided terraform code will spin up a github repo, a codebuild project and a s3 bucket to host a static blog (blue box in the flow chart above). I figure people might not want to use cloudfront or route 53, so I left them out. 
-
-Also just a side note, Terraform doesn't help with register domain on Route 53. While AWS does offer the ability to register domain names, this is not something we would want Terraform to manage as we can't simply "unregister" a domain name.
+I'm learning Terraform at the moment and thought this could be a good hand-on side project for me. The provided terraform code will spin up a github repo, a codebuild project and a s3 bucket to host a static blog (blue box in the flow chart above). I figure people might not want to use cloudfront or route 53 as they are not free tier service, so I left them out. 
 
 To spin this up, we will need the below prerequisites:
 - [Github personal access token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)
