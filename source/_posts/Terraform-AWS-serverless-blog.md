@@ -64,7 +64,7 @@ git push -u origin master
 
 11. Wait for codebuild to complete update S3 bucket. Logon to AWS console to confirm.
 
-{% asset_img codeBuild.jpg %}
+{% asset_img codeBuild.JPG %}
 
 12. Open the website_endpoint url on step 5 and enjoy your serverless blog.
 
