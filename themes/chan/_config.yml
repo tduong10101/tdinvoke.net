@@ -8,7 +8,7 @@ favicon: https://blog.tdinvoke.net/images/favicon.ico
 monochrome: false
 
 # view setting
-avatar: https://www.gravatar.com/avatar/3f0fb9274e00579ce067f28956847e40?s=200
+avatar: https://en.gravatar.com/userimage/33595200/fd62856c01a5c58f02f4c0154eb2c2c0.png?size=200
 avatarLink: /about
 maxContentWidth: 1000px # set the main content column's max-width property. keep it blank to unlimited the width
 copyright: # the copyright text in the footer, could be richtext
