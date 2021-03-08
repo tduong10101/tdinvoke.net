@@ -11,7 +11,7 @@ tags:
 
 Quick introduction for Valheim, it's an indi game developed by IronGate which is a viking survival game where player can build/craft like minecraft, fight like darksoul and explore a beautiful world like zelda. The game is a huge success with 5 milion players, more information can be found here at [Valheim official site](https://www.valheimgame.com/).
 
-This post is about how I got Valheim server hosted on aws ec2 with a friend of mine.
+Below are the steps I took to setup a dedicated server on aws to host valheim:
 
 1. Spin up an ec2 instance: The game ran pretty smooth with a tiny bit of latency. Below is the instance details:
     
@@ -73,4 +73,4 @@ This post is about how I got Valheim server hosted on aws ec2 with a friend of m
     }
     ```
 
-Ok! that's enough for today, gotta get back to exploring Valheim.
+We got this setup running fine for the last 2-3 weeks, and it's costing us around $1.8 usd. Pretty happy with it, next improvement I guess maybe put together a Terraform for this or if possible, have cloudwatch monitor valheim's log instead of network packet out count.
