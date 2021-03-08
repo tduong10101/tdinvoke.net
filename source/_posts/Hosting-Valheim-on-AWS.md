@@ -73,4 +73,4 @@ This post is about how I got Valheim server hosted on aws ec2 with a friend of m
     }
     ```
 
-Ok! that's posting enough for today, gotta get back to exploring Valheim.
+Ok! that's enough for today, gotta get back to exploring Valheim.
