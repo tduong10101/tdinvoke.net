@@ -5,7 +5,10 @@ tags:
     - aws
     - ec2
     - python
+    - vrising
     - valheim
+    - discord
+    - raspberry pi
 ---
 
 {% asset_img "vrising-banner.png" %}
