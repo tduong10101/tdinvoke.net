@@ -1,5 +1,5 @@
 ---
-title: forza-log-streaming-to-opensearch
+title: Forza log streaming to Opensearch
 date: 2023-02-01 23:25:18
 tags:
     - aws
