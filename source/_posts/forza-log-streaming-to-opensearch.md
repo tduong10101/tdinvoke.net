@@ -42,7 +42,7 @@ opensearch role
 
 {% asset_img open-search-roles.JPG %}
 
-Note: all this can be by pass if I choose to send the log straight to opensearch via https rest. But then it wouldn't be too easy ;)
+Note: all this can be by pass if I choose to send the log straight to opensearch via https rest. But then it would be too easy ;)
 
 Note 2: I've gone with t3.small.search which is why I put real-time in quotation
 
