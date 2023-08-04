@@ -16,7 +16,7 @@ tags:
 
 {% asset_img "vrising-banner.png" %}
 
-It's been awhile since the last time I play Vrising, but I thought this would be a good project for me to get my hands on setting up a CICD pipeline with terraform and github actions (an upgraded version from my [AWS Vrising hosting solution](https://blog.tdinvoke.net/2022/06/05/Hosting-VRising-on-AWS/)).
+It's been awhile since the last time I play Vrising, but I think this would be a good project for me to get my hands on setting up a CICD pipeline with terraform and github actions (an upgraded version from my [AWS Vrising hosting solution](https://blog.tdinvoke.net/2022/06/05/Hosting-VRising-on-AWS/)).
 
 There are a few changes to the original solution, first one is the use of [vrising docker image](https://github.com/TrueOsiris/docker-vrising) (thanks to TrueOsiris), instead of manually install vrising server to the ec2 instance. Docker container would be started as part of the ec2 user data. Here's the [user data script](https://github.com/tduong10101/Vrising-aws/blob/master/terraform/vrising-install.tftpl).
 
@@ -49,6 +49,8 @@ Terraform resources would then get deploy out by github actions with OIDC config
 Oh I forgot to mention, we also need an S3 bucket create to store the tfstate file as stated in [_provider.tf](https://github.com/tduong10101/Vrising-aws/blob/master/terraform/_provider.tf).
 
 Below is an overview of the upgraded solution.
+
+Github repo: https://github.com/tduong10101/Vrising-aws
 
 {% asset_img "diagram.png" %}
 
