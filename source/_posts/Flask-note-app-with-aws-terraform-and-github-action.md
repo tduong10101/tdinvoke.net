@@ -200,3 +200,7 @@ pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'terrafor
 ## Don't declare db_name in rds resource block
 
 This is due to the note app has a db/table create function, if the db_name is declared in terraform it would create an empty db without the required tables. Which would then resulting in app fail to run.
+
+## Load secrets into atmos terraform using github secret and TF*VAR*
+
+Ensure sensitive is set to true for the secret. Use github secret and TF_VAR to load the secret into atmos terraform `TF_VAR_secret_name={secrets.secret_name}`
