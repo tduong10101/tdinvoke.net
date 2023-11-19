@@ -13,13 +13,11 @@ tags:
     - vpc
 ---
 
+{% asset_img "AWS-HLD.png" %}
+
 This project is part of a mentoring program from my current work - Vanguard Au. Thanks [Indika](https://www.linkedin.com/in/indikarajanayake) for the guidance and supports through this project.
 
 Please test out the app here: https://tnote.tdinvoke.net
-
-# High level design
-
-{% asset_img "AWS-HLD.png" %}
 
 # Flask note app
 
