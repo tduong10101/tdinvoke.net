@@ -2,10 +2,19 @@
   .article-header {
     font-size: 32px;
     margin-bottom: 10px;
+    background-color: #79a617;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
     a {
-      color: #1450A3;
+      color: white;
+      display: inline-block;
+      padding: 10px 0px 10px 25px;
+      margin: -10px 0px -10px -25px;
+
       &:hover {
-        color: #539BF5;
+        background-color:  #52700f;
       }
     }
   }
@@ -13,6 +22,7 @@
     font-size: 14px;
     color: gray;
     margin-bottom: 1em;
+    padding-left: 20px;
     .article-date {
       margin-right: 0.5em;
       color: gray;
@@ -43,9 +53,10 @@
     font-size: 16px;
     line-height: line-height;
     text-align: justify;
+    padding-left: 20px;
 
     code {
-      background-color: #f1f1f1;
+      background-color: #48494b;
       border-radius: 2px;
     }
 
@@ -152,6 +163,13 @@
 }
 
 @media mq-mobile {
+  .article-entry, .article-info, .article-header {
+    padding-left: 8px;
+  }
+  .article-header>a{
+    padding-left:13px;
+    margin-left: -13px;
+  }
   .article {
     .article-entry {
       .highlight,
