@@ -13,6 +13,16 @@ avatarLink: /about
 maxContentWidth: # set the main content column's max-width property. keep it blank to unlimited the width
 copyright: # the copyright text in the footer, could be richtext
 
+iconList: 
+  - iconLink: https://github.com/tduong10101
+    iconImgLink: https://blog.tdinvoke.net/images/github.svg
+    iconImgLinkHover: https://blog.tdinvoke.net/images/github-hover.svg
+  - iconLink: https://www.linkedin.com/in/terry-duong-a722b662
+    iconImgLink: https://blog.tdinvoke.net/images/linkedin.svg
+    iconImgLinkHover: https://blog.tdinvoke.net/images/linkedin-hover.svg
+  - iconLink: https://blog.tdinvoke.net/random-podcast/
+    iconImgLink: https://blog.tdinvoke.net/images/podcast.svg
+    iconImgLinkHover: https://blog.tdinvoke.net/images/podcast-hover.svg
 # sidebar navigator structure
 # It's a list with item that is also list.
 # The item of first level list means a group of links,
@@ -25,10 +35,6 @@ nav:
         url: "/"
       - name: About
         url: "/about"
-      - name: Github
-        url: https://github.com/tduong10101
-      - name: Random Podcast
-        url: "/random-podcast"
     - - tags # display a collapsible tag list
       - archives # display a collapsible archive list
       - name: By Year
