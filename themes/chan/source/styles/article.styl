@@ -115,6 +115,9 @@
   img {
     max-width: 100%;
   }
+  #about-me {
+    max-width: 300px;
+  }
 
   .article-gallery {
     figure.article-gallery-img {
@@ -166,7 +169,13 @@
     }
   }
 }
-
+@media(min-width:1200px){
+  .article {
+    img {
+      max-width: 75%;
+    }
+  }
+}
 @media mq-mobile {
   .article-entry, .article-info, .article-header {
     padding-left: 8px;
