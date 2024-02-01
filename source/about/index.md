@@ -2,7 +2,8 @@
 title: About
 date: 2019-08-16 21:16:33
 ---
-<img src="./index/me.jpg" width="300" height="300">
+
+<img src="./index/me.jpg" width="50%" style="border-radius: 2%;">
 
 Hi There!
 
