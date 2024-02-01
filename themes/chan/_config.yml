@@ -35,7 +35,7 @@ nav:
         url: "/"
       - name: About
         url: "/about"
-    - - tags # display a collapsible tag list
+      - tags # display a collapsible tag list
       - archives # display a collapsible archive list
       - name: By Year
         url: /archives
