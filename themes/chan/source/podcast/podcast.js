@@ -1,5 +1,6 @@
 var API_GET_CURRENT_EP = "https://pw9hp8mso2.execute-api.us-east-1.amazonaws.com/default/td-podcast-get-current-episode"
 $(document).ready(function() {
+    $('.loading-div').show();
     if (document.title == "Random Podcast"){
             $.ajax({
                     url: API_GET_CURRENT_EP,
@@ -13,10 +14,13 @@ $(document).ready(function() {
                         $("#audio-source").attr('src',response.episode_url);
                         $("#audio").attr('style','display:block');
                         $("#audio").trigger('load')
-                            },
-                            error: function() {
-                                alert("error");
-                            }
+                    },
+                    complete: function(){
+                        $(".loading-div").hide();
+                    },
+                    error: function() {
+                        alert("error");
+                    }
                     });
             }});
 if (document.title == "Random Podcast"){
