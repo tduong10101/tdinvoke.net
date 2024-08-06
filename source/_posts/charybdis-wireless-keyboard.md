@@ -14,17 +14,17 @@ tags:
 
 ## Intro
 
-Recently I switched over to use split keyboards and tried out the lily58 and cornekb v4. I'm really enjoying the split and ortholinear layout but I still feel like they are missing something. The layout is great but I think with the flat surface it's a bit hard to reach out for the outer keys with my pinky. Also, I'm learning vim and discover how easy I can get in "the flow" with limited use of the mouse. So I set out to find a keyboard with sort of curved keywell (I later find out that it's called dactyl) and a trackball, and I stumble on the Charybdis Keyboard.
+Recently I switched over to use split keyboards and tried out the lily58 and cornekb v4. I'm really enjoying the split and ortholinear layout but I still feel like they are missing something. The layout is great but I think with the flat surface it's a bit hard to reach out for the outer keys with my pinky. Also, I'm learning vim and discover how easy I can get in "the flow" with limited use of the mouse. So I set out to find a keyboard with sort of curved keywell and a trackball (I'm getting rid of the mouse), and I stumble on the Charybdis Keyboard.
 
 This is my build blog for the charybdis mini keyboard, designed and created by [BastardKeyboards](https://bastardkb.com/) and wireless version made possible by EIGA and VOIDed mods - https://www.youtube.com/watch?v=Mks7QDxFreY
 
 ## Research
 
-There are lots of information on building a wire version on BastardKeyboards page. They are actually very helpful, so I recommend have a read through even if you'd like to build the wireless version.
+There are lots of information on building a wire version on BastardKeyboards page. They are actually very helpful, so I recommend have a read through even if you want to build the wireless version.
 
 https://docs.bastardkb.com/bg_charybdis/01index.html
 
-This is the only wireless build blog (thanks erenatas for putting it together) that I can find on the net. Which is also very helpful.
+This is the only wireless build blog, that I can find on the net. Which is super helpful, it wouldn't be able to complete this build without this blog. Huge thank to erenatas for putting it together!
 
 https://github.com/erenatas/charybdis-wireless-3x6
 
