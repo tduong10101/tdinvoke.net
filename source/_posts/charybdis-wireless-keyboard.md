@@ -93,7 +93,7 @@ I'm not going to list out the steps, it's already covered in the videos and eren
 7 - Do the right side first, as it's the main board that talk back to the computer.
 8 - When I finished both sides, they did not auto connect. To fix this issue I had to reset the boards by pressing both reset buttons at the same time.
 9 - Test with the cable connected to the right board first. Make sure bluetooth is connected from the left board to the right board (with the usb cable connected from the right board to your pc). Once that tested then move on to test both boards with bluetooth connection to the pc.
-10 - Issue 'Paired but unable to connected to the pc | constantly connect then disconnect | And forget the connect but not able to re-pairing again.' If you have these symptoms, map BT_CLR (or figured out where this key is mapped) to a key to clear all the bluetooth profiles, then you should be able to pair again.
+10 - Issue 'Paired but unable to connected to the pc | constantly connect then disconnect | And forget the connect but not able to re-pairing again.' If you have these symptoms, map BT_CLR to a key to clear all the bluetooth profiles, or try to figure out where this key is mapped, then you should be able to pair again.
 
 Here is [my zmk repo](https://github.com/tduong10101/Charybdis-ZMK-Config) that I forked from [grassfedreeve](https://github.com/grassfedreeve)
 
