@@ -86,22 +86,20 @@ I'm not going to list out the steps, it's already covered in the videos and eren
 1 - Don't force the pcb, if the switch feet can be soldered, then it's good enough. I learnt the hard way after I broke a pcb in half.
 2 - This tool is necessary, if you only have one pair of hands.
 {% asset_img "Pasted image 20240806205335.png" %}
-3 - I couldn't do hotswap on the controller due to the headers that I got are too tall and it would not fit into the usb-c holes, so I ended soldered the controllers to the nano holders. I don't know if the low profile headers would work, try out with your own risk.
+3 - I couldn't get hotswap done on the controller due to the headers that I got are too tall and it would not fit into the usb-c holes, so I ended up soldering the controllers to the nano holders. I don't know if the low profile headers would fit, try out with your own risk.
 4 - The case pocket space for the controller is smaller than I think it is. Be **very** gentle when fit in the flex strips, battery and power switches. Watch out where the flex strip cables come out of the pcb, I've broken 2 pcbs when I try to force the controller in (┬┬﹏┬┬). Also I had to solder the flex cables into the pcb, and only use the headers on the nano holder.
-5 - If you're planning to use the tent only version solder the headers the other way, so you don't have fit the flex cable into the pocket space. The cable would then hang out below the cases.
-6 - Remember to test out the pcb once you have solder all the diodes, flex cables and can connect to the nano holder.
-7 - Do the right side first, as it's the main board that talk back to the computer. You can test out right side first.
+5 - If you're planning to use the tent only version, solder the headers the other way, so you don't have fit the flex cable into the pocket space. The cable would then hang below the cases.
+6 - Remember to test out the pcb once you have solder all the diodes, flex cables and able connect to the nano holder.
+7 - Do the right side first, as it's the main board that talk back to the computer.
 8 - When I finished both sides, they did not auto connect. To fix this issue I had to reset the boards by pressing both reset buttons at the same time.
-9 - Test with the cable connect to the right board first. Make sure bluetooth is connected from the left board to the right board (with the usb cable connected to the right board). Then test both boards with bluetooth connection to the pc.
-10 - Issue 'Paired but unable to connected to the pc, constantly connect then disconnect. And forget the connect but not able to re-pairing again.' If you can this symptom, map the BT_CLR (or figured out where this key is mapped) to a key to clear all the bluetooth profiles, the you should be able to pair again.
+9 - Test with the cable connected to the right board first. Make sure bluetooth is connected from the left board to the right board (with the usb cable connected from the right board to your pc). Once that tested then move on to test both boards with bluetooth connection to the pc.
+10 - Issue 'Paired but unable to connected to the pc | constantly connect then disconnect | And forget the connect but not able to re-pairing again.' If you have these symptoms, map BT_CLR (or figured out where this key is mapped) to a key to clear all the bluetooth profiles, then you should be able to pair again.
 
 Here is [my zmk repo](https://github.com/tduong10101/Charybdis-ZMK-Config) that I forked from [grassfedreeve](https://github.com/grassfedreeve)
 
-Be patient, don't rush. I made this stupid mistake of rushing because of the excitement and broke 4 pcbs and a nano controller. Don't be like me.
+Be patient, don't rush. I made this stupid mistake of rushing because of the excitement and broke 4 pcbs and a nano controller. Don't be like me. It was painful waiting for the deliveries on the pcbs again.
 
-It was painful waiting for the deliveries on the pcbs again.
-
-I've learnt a lot working on this project and it's really fun journey. I hope you are too, if you decide to build one for yourself.
+I've learnt a lot working on this project and it's really fun journey. I hope you are too, if you've decided to build one for yourself.
 
 Here are some pictures of the boards.
 
