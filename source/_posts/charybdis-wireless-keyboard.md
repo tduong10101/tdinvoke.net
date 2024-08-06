@@ -28,7 +28,7 @@ This is the only wireless build blog (thanks erenatas for putting it together) t
 
 https://github.com/erenatas/charybdis-wireless-3x6
 
-Watching this nano build let me map out and understand the all the steps that I need to do.
+Watching this nano build let me map out and understand all the steps that I need to do.
 
 https://www.youtube.com/watch?v=0RGcVYeuxNM
 
@@ -76,12 +76,13 @@ I had to update the bom file by remove the empty top and bottom row.
 {% asset_img "Pasted image 20240723215937.png" %}
 I too run into the same issue with TCR2EF19 shortage, so I had to ordered the TLV70018DDCR regulator.
 
-and only the bottom side is required for assemble, the top bit I can solder the cables directly to the board myself.
+and only the bottom side is required for assemble, the top bit I can solder the cables directly to the board.
 {% asset_img "Pasted image 20240806204647.png" %}{% asset_img "Pasted image 20240806204757.png" %}
 
 ## Assembly
 
-I'm not going to list out the steps, it's already covered in the videos and erenatas's guide. Instead I'll list out the pains/problems that I had to go through, so you don't have to:
+I'm not going to list out the steps, it's already covered in the videos and erenatas' guide. Instead I'll list out the pain points/problems that I had to go through, so you don't have to:
+
 1 - Don't force the pcb, if the switch feet can be soldered, then it's good enough. I learnt the hard way after I broke a pcb in half.
 2 - This tool is necessary, if you only have one pair of hands.
 {% asset_img "Pasted image 20240806205335.png" %}
