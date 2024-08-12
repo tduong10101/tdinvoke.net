@@ -85,3 +85,16 @@ disqus_shortname: tdinvoke
 # Add sitemap
 sitemap:
   path: sitemap.xml
+
+# Add feed
+feed:
+  enable: true
+  type:
+    - atom
+    - rss2
+  path:
+    - atom.xml
+    - rss2.xml
+  limit: 20
+  content_limit: 140
+  order_by: -date
